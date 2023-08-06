@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--gray-700);
+  height: 12.5rem;
+  width: auto;
+  margin-top: 1rem;
+}
+
+.header img {
+  height: 2.5rem;
+}
+
+.addTaskContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2em;
+  gap: 0.5rem;
+}
+
+input {
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  background-color: var(--gray-500);
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--gray-300);
+  height: 3.375rem;
+  width: 50%;
+  padding: 1rem;
+}
+.addTask {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blue-dark);
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  color: var(--gray-100);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  gap: 0.5rem;
+  transition: background-color 0.2s;
+}
+.addTask:hover {
+  background-color: var(--blue);
+  cursor: pointer;
+}
